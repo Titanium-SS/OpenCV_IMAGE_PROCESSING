@@ -3,7 +3,7 @@
 <hr>
 
 ## Language Used: 
-<img src="readme\python.png" height=70>
+<img src="readme\python.png" height=60>
 <hr>
 
 
@@ -32,6 +32,6 @@ The playlist is suitable for beginners who want to learn how to use OpenCV with 
 
 3. [Matplotlib](https://matplotlib.org/stable/users/installing/index.html)
 
-4. [Numpy](https://numpy.org/install/")
+4. [Numpy](https://numpy.org/install/)
 
 

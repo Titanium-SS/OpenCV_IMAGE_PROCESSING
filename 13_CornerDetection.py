@@ -1,3 +1,9 @@
+"""
+This code reads an image, converts it to grayscale, detects corners in the grayscale image,
+draws circles at the detected corners, and displays the result. 
+The process continues until a key is pressed.
+"""
+
 import cv2
 import numpy as np
 

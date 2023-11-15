@@ -1,9 +1,16 @@
+"""
+This code reads two images, adds them together in different ways, displays the result of the weighted addition, 
+and contains commented code that, if uncommented, would overlay one image onto another. 
+The process continues until a key is pressed.
+"""
+
+
 import cv2
 import numpy as np 
 
 
-img1 = cv2.imread('imageSRC1.jpg', cv2.IMREAD_COLOR)
-img2 = cv2.imread('imageSRC2.jpg', cv2.IMREAD_COLOR)
+img1 = cv2.imread('images/left.jpg', cv2.IMREAD_COLOR)
+img2 = cv2.imread('images/right.jpg', cv2.IMREAD_COLOR)
 
 add = img1 + img2                 # Simply add the images while keeping their opaqueness intact
 
@@ -12,7 +19,6 @@ add = cv2.add(img1, img2)         # Add the color values of the pixel in the are
 weighted = cv2.addWeighted(img1, 0.5, img2, 0.5, 0)         # opaqueness can be affected and added in the image so produced
 
 cv2.imshow('AddedImages', weighted)
-
 
 
 """

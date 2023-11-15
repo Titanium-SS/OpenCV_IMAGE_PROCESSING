@@ -1,9 +1,13 @@
-#Import necessary libraries
+# This code was not part of the Video Series
+"""
+This code reads two images, converts them to grayscale, 
+extracts keypoints and computes descriptors, matches the descriptors, 
+computes a homography, stitches the images together based on the homography, and saves the result.
+"""
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-#Load images and convert them to grayscale
 imgA = cv2.imread("images/left.jpg")
 imgB = cv2.imread("images/right.jpg")
 grayA = cv2.cvtColor(imgA,cv2.COLOR_BGR2GRAY)

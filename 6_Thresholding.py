@@ -1,6 +1,10 @@
+"""
+This code reads an image, applies several types of thresholding, and displays the results. 
+The process continues until a key is pressed.
+"""
 import cv2
 
-img = cv2.imread('bookpage.png')
+img = cv2.imread('images/bookpage.png')
 retval, threshold = cv2.threshold(img, 120, 255, cv2.THRESH_BINARY)
 
 grayscaled = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

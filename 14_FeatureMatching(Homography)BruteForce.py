@@ -1,3 +1,8 @@
+"""
+This code reads two images, detects keypoints and computes descriptors for both images, 
+matches the descriptors, draws the best matches, and displays the result. 
+The process continues until a key is pressed.
+"""
 import cv2
 import matplotlib.pyplot as plt
 

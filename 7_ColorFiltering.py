@@ -1,3 +1,10 @@
+"""
+This code captures video from a webcam, converts it to the HSV color space, 
+applies a color filter to keep only the red objects, and displays the original and filtered video. 
+The process continues until the ‘q’ key is pressed.
+"""
+
+
 import cv2
 import numpy as np
 

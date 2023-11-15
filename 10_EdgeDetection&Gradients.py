@@ -1,3 +1,10 @@
+"""
+This code captures video from a webcam, applies several edge detection methods, 
+and displays the original and processed video. 
+The process continues until the ‘q’ key is pressed.
+"""
+
+
 import cv2
 
 cap = cv2.VideoCapture(0)

@@ -1,3 +1,7 @@
+"""
+Simple script for Web Scraping images for a new haar Cascade Training
+"""
+
 import urllib.request
 import cv2
 import os

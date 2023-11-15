@@ -1,8 +1,14 @@
+"""
+This code is segmenting the foreground object in an image using the GrabCut algorithm. 
+The foreground object is defined as the region inside the specified rectangle. 
+The result is a new image where all background pixels have been set to zero (black).
+"""
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread('example.jpg')
+img = cv2.imread('images/cod1.png')
 mask = np.zeros(img.shape[:2], np.uint8)
 
 bgdModel = np.zeros((1,65), np.float64)

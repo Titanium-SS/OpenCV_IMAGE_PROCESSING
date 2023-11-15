@@ -1,9 +1,11 @@
+# This code was not part of the Video Series
+
 import os
 import requests
 from bs4 import BeautifulSoup
 import urllib.request
 
-url = 'https://www.gettyimages.in/photos/india-empty-roads' # Replace with the URL of the webpage you want to download images from
+url = 'https://www.gettyimages.in/photos/empty-roads' # Replace with the URL of the webpage you want to download images from
 save_directory = 'images' # Replace with the directory where you want to save the images
 
 if not os.path.exists(save_directory): # Check if the save_directory already exists

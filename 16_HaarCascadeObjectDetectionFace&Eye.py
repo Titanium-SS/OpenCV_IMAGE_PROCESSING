@@ -1,3 +1,10 @@
+"""
+This code captures video from a webcam, detects faces and eyes in the video, 
+draws rectangles around the detected faces and eyes, and displays the result. 
+The process continues until the ‘q’ key is pressed.
+"""
+
+
 import cv2
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')

@@ -3,6 +3,9 @@ import numpy as np
 
 cap = cv2.VideoCapture(0)
 
+
+# use a red color(or similar shade) object in front of the camera
+
 while True:
     _, frame = cap.read()
     # hue saturation value

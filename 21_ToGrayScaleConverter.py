@@ -1,3 +1,5 @@
+# This code was not part of the Video Seriesi
+
 import cv2
 import os
 

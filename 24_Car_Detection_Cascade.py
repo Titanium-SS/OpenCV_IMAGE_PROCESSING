@@ -1,5 +1,10 @@
-import cv2
+# This code was not part of the Video Series
+"""
+Haar Cascade namely 'haarcascade_car.xml that I trained was not so good at 
+detecting cars, hence removed from the repo.
+"""
 
+import cv2
 
 car_cascade = cv2.CascadeClassifier('haarcascade_car.xml')
 

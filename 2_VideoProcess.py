@@ -1,3 +1,10 @@
+"""
+This code captures video from a webcam, displays it, converts it to grayscale, 
+displays the grayscale video, and saves the original video to a file. 
+The process continues until the ‘q’ key is pressed.
+"""
+
+
 import cv2
 import numpy as np 
 

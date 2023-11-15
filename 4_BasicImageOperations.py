@@ -1,9 +1,16 @@
+"""
+This code reads an image, accesses and modifies a specific pixel, 
+accesses and modifies a region of the image, 
+copies a region of the image to another location,and displays the result. 
+The process continues until a key is pressed.
+"""
+
+
 import cv2
 import numpy as np 
 
 
-img = cv2.imread('IMAGE1.jpg', cv2.IMREAD_COLOR)
-
+img = cv2.imread('images/IMAGE1.jpg', cv2.IMREAD_COLOR)
 
 px = img[55, 55]                  #Prints the actual color value of the pixel of image 
 print(px)

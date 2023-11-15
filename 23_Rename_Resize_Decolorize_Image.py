@@ -1,3 +1,5 @@
+# This code was not part of the Video Series
+
 import os
 from PIL import Image
 

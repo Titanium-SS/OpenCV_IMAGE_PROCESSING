@@ -3,14 +3,20 @@
 <hr>
 
 ## Language Used: 
-<img src="readme\python.png" height=60>
+<div align="center">
+<img src="readme/python.png" height=70>
+</div>
+
 <hr>
 
 
-## Libraries Used:
-<img src="readme\opencv.png" height=70>
-<img src="readme\matplotlib.png" height=70>
-<img src="readme\numpy.png" height=70>
+## Libraries Used
+
+<div align="center">
+    <img src="readme/opencv.png" height=70>
+    <img src="readme/matplotlib.png" height=70>
+    <img src="readme/numpy.png" height=70>
+</div>
 
 <hr>
 
